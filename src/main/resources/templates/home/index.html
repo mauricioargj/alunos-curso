@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,53 @@
     <title>Projeto Academy</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/006642858d.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Ubuntu&family=Work+S\\\fans&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP|Open+Sans|Roboto&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4527A0">
-        <a href="#" class="navbar-brand">
-            <img src="img/logo_header-site.png" alt="" width="200px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMobile">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4527A0">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo_header-site.png" alt="" width="200px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div id="navMobile" class="navbar-collapse collapse justify-content-end">
-            <a class="nav-item nav-link">Home</a>
-            <a class="nav-item nav-link">Cadastrar Aluno</a>
-            <a class="nav-item nav-link">Pesquisar Aluno</a>
-            <a class="nav-item nav-link btn-danger">Sair</a>
+            <div id="navMobile" class="navbar-collapse collapse justify-content-end">
+                <a class="nav-item nav-link">Home</a>
+                <a class="nav-item nav-link">Cadastrar Aluno</a>
+                <a class="nav-item nav-link">Pesquisar Aluno</a>
+                <a class="nav-item nav-link btn-danger">Sair</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="neo-section" style="background-image: url('img/bg-index.jpg');">
+
+        <div class="sombra"></div>
+
+        <div class="center neo-container">
+            <h1>Sistema de Gerencimento de Alunos</h1>
+
+
+            <div class="botoes">
+                <div class="wm">
+                    <button class="btn btn-primary">CADASTRAR ALUNO</button>
+                </div>
+                <div class="wm">
+                    <button class="btn btn-success">ENCONTRAR ALUNO</button>
+                </div>
+                <div class="clear">
+                     
+                </div>
+            </div>
         </div>
-    </nav>
+    </section>
 
-</header>
-
-<section class="neo-section" style="background-image: url('img/bg-index.jpg');">
-
-    <div class="sombra"></div>
-
-    <div class="text-main">
-        <h1>Sistema de Gerencimento de Alunos</h1>
-    </div>
-
-    <div class="botoes">
-        <div class="wm">
-            <button class="btn btn-primary">CADASTRAR ALUNO</button>
-        </div>
-        <div class="wm">
-            <button class="btn btn-success">ENCONTRAR ALUNO</button>
-        </div>
-        <div class="clear"></div>
-    </div>
-</section>
-
-<script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
-<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

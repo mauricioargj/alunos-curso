@@ -17,4 +17,22 @@ a {
     background-size: cover !important;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+}
+.wm{
+    width: 50%;
+    float: left;
+}
+.neo-container{
+    max-width: 1280px;
+    padding: 2% 2%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.center{
+    text-align: center;
 }
